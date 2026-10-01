@@ -1,2 +1,8 @@
-# FAD_Tarea_01_Estadistica
-Tarea 1: Fundamentos del Análisis de Datos
+# Fundamentos del Análisis de Datos
+
+Repositorio dedicado a las prácticas y tareas desarrolladas durante el curso de **Fundamentos del Análisis de Datos**.
+
+## 🛠️ Tecnologías
+
+* **Lenguaje:** Python
+* **Entorno de desarrollo:** VSCode
