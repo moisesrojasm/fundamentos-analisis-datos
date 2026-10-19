@@ -7,10 +7,10 @@ def cargar_datos_csv(nombre_archivo="predictive_maintenance_dataset.csv"):
     ruta_archivo = ruta_actual / 'Datos' / nombre_archivo
     
     if not ruta_archivo.is_file():
-        # Intento alternativo si se ejecuta desde la raíz del proyecto
+        # Si se ejecuta desde la raíz del proyecto
         ruta_archivo = ruta_actual / 'Proyecto_Estadistica_Python' / 'Datos' / nombre_archivo
         if not ruta_archivo.is_file():
-            # Intentar buscar un nivel más arriba o directo
+            # Buscar un nivel más arriba
             ruta_archivo = Path('Datos') / nombre_archivo
 
     if not ruta_archivo.is_file():
